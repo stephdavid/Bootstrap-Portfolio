@@ -31,6 +31,11 @@ https://stackoverflow.com/questions/6613166/how-to-duplicate-a-git-repository-wi
 * accessibility icons title
 
 
+added the placeholder image - https://placehold.co/600x400
+
+
+
+
 declarative rather than imperative - I prefer to see HOW it's done
 
 * grid 12 cols
