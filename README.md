@@ -19,6 +19,16 @@ https://stackoverflow.com/questions/6613166/how-to-duplicate-a-git-repository-wi
 
 img
 
+look ma - no css file!
+
+translation 
+
+continuous refinements
+
+goes against the grain
+
+separation of concerns
+
 Add class .img-fluid to make your bootstrap image responsive. It will apply max-width: 100%; and height: auto; to the image, which makes it always fit the parent element. 
 
 * Created a new repository - Bootstrap Portfolio - as this name was specifically requested
