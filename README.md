@@ -2,18 +2,36 @@
 
 ## A webpage using the Bootstrap front-end framework to showcase my skills and talents to prospective employers.
 
-### Interesting features of this responsive HTML/CSS page:
+![William Morris - Have nothing in your house/code that you do not know to be useful or believe to be beautiful](images/morris.png)
+
+### Interesting features of this responsive Bootstrap HTML/CSS page:
 
 * I had wanted to fork the portfolio repo, but it’s not possible if it’s your own repo. Doing some research, I decided to adopt this suggestion from StackOverFlow.com:
 > If you just want to create a new repository using all or most of the files from an existing one (i.e., as a kind of template), I find the easiest approach is to make a new repo with the desired name etc, clone it to your desktop, then just add the files and folders you want in it.
 > You don't get all the history etc, but you probably don't want that in this case.
 https://stackoverflow.com/questions/6613166/how-to-duplicate-a-git-repository-without-forking
 
-![William Morris - Have nothing in your house/code that you do not know to be useful or believe to be beautiful](images/morris.png)
+* Created a second repository naming it Bootstrap Portfolio - this title was specifically requested
 
+* Had considered whether it would have been better starting the Profile page again from scratch, as there was a lot of refactoring. But I don't think it would have been easier as I'm so accustomed to the HTML/CSS way of doing things. For me Bootstrap is definitely a "foreign" language and there's a lot of literal translation i.e. Fronglais going on. Linguistically, speaking in a foreign language always has the "flavour" of the person's native language. I think this applies to coding too. My maiden coding "tongue" is plain old CSS. :-) 
 
+* Prepared a wireframe grid (based on Bootstrap's 12 col grid) in a MSExcel spreadsheet:
+  ![MSExcel wireframe grid ](images/wireframe.png)
+* 
+* A Fontawesome icon of an arrow pointing up made accessible using title nicely replaced the "back to menu" text 
+
+* A dubious win is not requiring a separate css file but having everything in the html file - flies in the face the "Separation of Concerns" principle
+
+* It's too easy to add too many divs
+
+* but it validates as HTML5
+
+* and it doesn't offend the accessibilty tool
 
 * accessibility icons title
+
+
+declarative rather than imperative - I prefer to see HOW it's done
 
 * grid 12 cols
 
@@ -31,11 +49,11 @@ separation of concerns
 
 Add class .img-fluid to make your bootstrap image responsive. It will apply max-width: 100%; and height: auto; to the image, which makes it always fit the parent element. 
 
-* Created a new repository - Bootstrap Portfolio - as this name was specifically requested
+
   
 * Completed the page structure
 
-* Am considering whether it would have been an easier task start again from scratch, as there was a lot of refactoring. But I don't think it would have been easier as I'm so accustomed to the HTML/CSS way of doing things. For me Bootstrap is definitely a "foreign" language and there's a lot of literal translation i.e. Fronglais going on. 
+
 * 
 * "Work" section images embedded in the HTML page rather than as a CSS background property. This enables the use of an alt tag and figure/figcaption tags - better for accessibility. The 02-hero-bg.jpg image was left as css property - it's decorative only. As well, it only appears with a larger screen. See @media queries below.
 
