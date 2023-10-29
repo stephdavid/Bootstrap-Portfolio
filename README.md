@@ -9,9 +9,23 @@
 > You don't get all the history etc, but you probably don't want that in this case.
 https://stackoverflow.com/questions/6613166/how-to-duplicate-a-git-repository-without-forking
 
+![William Morris - Have nothing in your house/code that you do not know to be useful or believe to be beautiful](images/morris.png)
+
+
+
+* accessibility icons title
+
+* grid 12 cols
+
+img
+
+Add class .img-fluid to make your bootstrap image responsive. It will apply max-width: 100%; and height: auto; to the image, which makes it always fit the parent element. 
+
 * Created a new repository - Bootstrap Portfolio - as this name was specifically requested
+  
 * Completed the page structure
-* Am considering whether it would have been an easier task to start again from scratch, as there was a lot of refactoring. I don't think it would have been easier. I'm so accustomed to the HTML/CSS way of doing things - Bootstrap is definitely a "foreign" language and there's a lot of literal translation going on. 
+
+* Am considering whether it would have been an easier task start again from scratch, as there was a lot of refactoring. But I don't think it would have been easier as I'm so accustomed to the HTML/CSS way of doing things. For me Bootstrap is definitely a "foreign" language and there's a lot of literal translation i.e. Fronglais going on. 
 * 
 * "Work" section images embedded in the HTML page rather than as a CSS background property. This enables the use of an alt tag and figure/figcaption tags - better for accessibility. The 02-hero-bg.jpg image was left as css property - it's decorative only. As well, it only appears with a larger screen. See @media queries below.
 

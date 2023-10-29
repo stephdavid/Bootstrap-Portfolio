@@ -18,37 +18,36 @@
 
 <body>
 
-  <header class="py-3 mb-4">
+  <header class="d-flex flex-row justify-content-between py-3 mb-4">
     <div class="container d-flex flex-wrap justify-content-start">
-      <h1 class="text-light">Stephanie David</h1>
+      <h1 class="display-3 text-light fw-semibold pl-10">Stephanie David</h1>
     </div>
-    <nav class="py-2">
+    <nav class="py-2" id="nav">
       <div class="container d-flex flex-wrap">
-        <ul class="nav me-auto">
-          <li class="nav-item"><a href="#about-me" class="nav-link px-2 text-light mb-1">About Me</a>
-          </li>
-          <li class="nav-item"><a href="#work" class="nav-link link-body-emphasis px-2 text-light">Work</a></li>
-          <li class="nav-item"><a href="#contact-me" class="nav-link link-body-emphasis px-2 text-light">Contact Me</a>
+        <ul class="d-flex flex-row justify-content-between nav me-auto">
+          <li class="nav-item"><a href="#about-me" class="link-offset-3 fs-4 text-light">About Me</a></li>
+          <li class="nav-item"><a href="#work" class="link-offset-3 fs-4 text-light">Work</a></li>
+          <li class="nav-item"><a href="#contact-me" class="link-offset-3 fs-4 text-light">Contact Me</a>
           </li>
           <li class="nav-item"><a
               href="https://docs.google.com/document/d/1TDwgyvTgH-yHyDipq7hhaCxOUFc2_VESzmb7CQQOLaI/edit#heading=h.gnzxadkltywr"
-              class="nav-link link-body-emphasis px-2 text-light">CV</a></li>
+              class="link-offset-3 fs-4 text-light text-light">CV</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <div>
-    <div class="p-5 text-center bg-body-tertiary" class="bg-image"
-      style="background-image: url('images/bkd.png'); height: 100vh">
-      <div class="container py-4">
-        <h2 class="display-5 text-light fw-semibold">Web Developer</h2>
-      </div>
+
+  <!-- Jumbotron - in bootstrap 5 there is no jumbotron component -->
+  <div class="p-5 text-center" class="bg-image"
+    style="background: url('images/bgd.png') no-repeat; background-size: cover; height: 100vh;">
+    <div class="container py-4">
+      <h2 class="display-5 text-light fw-semibold">Web Developer</h2>
     </div>
   </div>
 
   <main>
-    <div class="container-fluid text-light">
+    <div class="container text-light">
       <div class="row">
         <div class="col-4">
           <h3 id="about-me">About Me</h3>
@@ -60,25 +59,23 @@
             I am formally trained and self-taught in many development languages and techniques on different platforms
             and in various development environments.<br /><br />
             User-centred design has been the key focus of my work with universal accessibility the measurement of
-            success.</p>
-          <a href="#menu">Return to the menu</a>
+            success.<a href="#nav" title="return to navbar"><span class="fa-solid fa-arrow-up fa-lg p-2"
+                style="color: #fff;"></span></a></p>
         </div>
       </div>
       <div class="row">
         <div class="col-4">
-          <h3>Work</h3>
+          <h3 id="work">Work</h3>
         </div>
         <div class="col-8">
           <div class="heading">
             <figure id="feature">
               <a href="https://question-everything.co.uk/">
-
-                <!-- <img srcset="images/rethinking-prisoners400.png 400w, images/rethinking-prisoners.png 800w" sizes="(max-width: 600px) 400px, 800px" src="images/rethinking-prisoners400.png" alt="Rethinking Prisoners website" /> -->
-
-                <img src="images/rethinking-prisoners.png" alt="Rethinking Prisoners website">
+                <img src="images/rethinking-prisoners.png" class="img-fluid" alt="Rethinking Prisoners website">
               </a>
               <figcaption>
-                Rethinking&nbsp;Prisoners&nbsp;-&nbsp;WordPress/PHP/JavaScript&nbsp;pwd:&nbsp;G0t0j51l
+                Rethinking&nbsp;Prisoners&nbsp;- WordPress/PHP/JavaScript pwd:&nbsp;G0t0j51l&nbsp;<a href="#nav"
+                  title="return to navbar"><span class="fa-solid fa-arrow-up fa-lg p-2" style="color: #fff;"></span></a>
               </figcaption>
             </figure>
           </div>
@@ -86,21 +83,22 @@
       </div>
       <div class="row">
         <div class="col-4">
-          work
         </div>
         <div class="col-4">
           <div class="heading">
             <figure>
               <a href="https://stephdavid.github.io/landing-page/"><img src="images/yummy-halloween.png"
-                  alt="Yummy Hallowe'en landing page"></a>
-              <figcaption>Yummy&nbsp;Hallowe'en&nbsp;-&nbsp;HTML/CSS/Graphics</figcaption>
+                  class="img-fluid" alt="Yummy Hallowe'en landing page"></a>
+              <figcaption>Yummy Hallowe'en - HTML/CSS/Graphics<a href="#nav" title="return to navbar"><span
+                    class="fa-solid fa-arrow-up fa-lg p-2" style="color: #fff;"></span></a>
+              </figcaption>
             </figure>
           </div>
         </div>
         <div class="col-4">
           <div class="heading">
             <figure>
-              <a href="#"><img src="images/coming-soon.png" alt="Coming Soon"></a>
+              <a href="#"><img src="images/coming-soon.png" class="img-fluid" alt="Coming Soon"></a>
               <!-- <figcaption></figcaption> -->
             </figure>
           </div>
@@ -112,7 +110,7 @@
         <div class="col-4">
           <div class="heading">
             <figure>
-              <a href="#"><img src="images/coming-soon.png" alt="Coming Soon"></a>
+              <a href="#"><img src="images/coming-soon.png" class="img-fluid" alt="Coming Soon"></a>
               <!-- <figcaption></figcaption> -->
             </figure>
           </div>
@@ -120,21 +118,32 @@
         <div class="col-4">
           <div class="heading">
             <figure>
-              <a href="#"><img src="images/coming-soon.png" alt="Coming Soon"></a>
+              <a href="#"><img src="images/coming-soon.png" class="img-fluid" alt="Coming Soon"></a>
               <!-- <figcaption></figcaption> -->
             </figure>
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-4">
-          contact me
+          <h3 id="contact-me">Contact Me</h3>
         </div>
         <div class="col-8">
-          ul list
+          <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+              <li class="nav-item fs-5 m-2 p-2">+44 (0) 0785 525 0456</li>
+              <li class="nav-item"><a href="mailto:stephdaviduk@gmail.com"
+                  class="link-offset-3 fs-5 m-3 p-2 text-light">stephdaviduk@gmail.com</a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/in/stephanie-david-88b25b7"
+                  class="link-offset-3 fs-5 m-2 p-2 text-light">LinkedIn</a></li>
+              <li class="nav-item"><a href="https://github.com/stephdavid"
+                  class="link-offset-3 fs-5 m-2 p-2 text-light">GitHub</a><a href="#nav" title="return to navbar"><span
+                    class="fa-solid fa-arrow-up fa-lg p-2" style="color: #fff;"></span></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </div> <!-- container-fluid -->
+      </div> <!-- container-fluid -->
   </main>
 
 
