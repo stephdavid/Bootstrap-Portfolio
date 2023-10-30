@@ -14,7 +14,8 @@
   <!-- place web page–specific CSS rules in this external "local" stylesheet. This file needs to be after the Bootstrap CSS reference, as it relies on it -->
   <link rel="stylesheet" href="css/style.css" />
   <style>
-    a {
+    a, a.nav-link {
+      text-decoration:underline;
       transition: text-decoration 0.3s;
     }
 
@@ -34,18 +35,23 @@
     <div class="d-flex flex-wrap justify-content-start">
       <h1 class="display-3 text-light fw-semibold ml-5 mt-4 pl-5">Stephanie David</h1>
     </div>
-
-    <nav class="d-flex flex-wrap justify-content-end mt-5 mr-5" id="nav">
-      <ul class="list-unstyled list-inline mt-3 mr-5">
-        <li class="list-inline-item"><a href="#about-me" class="link-offset-3 fs-4 text-light">About&nbsp;Me</a>
-        </li>
-        <li class="list-inline-item"><a href="#work" class="link-offset-3 fs-4 text-light">Work</a></li>
-        <li class="list-inline-item"><a href="#contact-me" class="link-offset-3 fs-4 text-light">Contact&nbsp;Me</a>
-        </li>
-        <li class="list-inline-item"><a
-            href="https://docs.google.com/document/d/1TDwgyvTgH-yHyDipq7hhaCxOUFc2_VESzmb7CQQOLaI/edit#heading=h.gnzxadkltywr"
-            class="link-offset-3 fs-4 text-light text-light">CV</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link fs-4 text-light" href="#about-me">About Me</a>
+            <a class="nav-link fs-4 text-light" href="#work">Work</a>
+            <a class="nav-link fs-4 text-light" href="#contact-me">Contact Me</a>
+            <a class="nav-link fs-4 text-light"
+              href="https://docs.google.com/document/d/1TDwgyvTgH-yHyDipq7hhaCxOUFc2_VESzmb7CQQOLaI/edit#heading=h.gnzxadkltywr">My
+              CV</a>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
 
