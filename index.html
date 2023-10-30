@@ -14,8 +14,9 @@
   <!-- place web page–specific CSS rules in this external "local" stylesheet. This file needs to be after the Bootstrap CSS reference, as it relies on it -->
   <link rel="stylesheet" href="css/style.css" />
   <style>
-    a, a.nav-link {
-      text-decoration:underline;
+    a,
+    a.nav-link {
+      text-decoration: underline;
       transition: text-decoration 0.3s;
     }
 
@@ -43,10 +44,10 @@
         </button>
         <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link fs-4 text-light" href="#about-me">About Me</a>
-            <a class="nav-link fs-4 text-light" href="#work">Work</a>
-            <a class="nav-link fs-4 text-light" href="#contact-me">Contact Me</a>
-            <a class="nav-link fs-4 text-light"
+            <a class="nav-link link-offset-3 fs-4 text-light" href="#about-me">About Me</a>
+            <a class="nav-link link-offset-3 fs-4 text-light" href="#work">Work</a>
+            <a class="nav-link link-offset-3 fs-4 text-light" href="#contact-me">Contact Me</a>
+            <a class="nav-link link-offset-3 fs-4 text-light"
               href="https://docs.google.com/document/d/1TDwgyvTgH-yHyDipq7hhaCxOUFc2_VESzmb7CQQOLaI/edit#heading=h.gnzxadkltywr">My
               CV</a>
           </div>
@@ -76,8 +77,8 @@
           I am formally trained and self-taught in many development languages and techniques on different platforms
           and in various development environments.<br /><br />
           User-centred design has been the key focus of my work with universal accessibility the measurement of
-          success.<a href="#nav" title="return to navbar"><span class="fa-solid fa-arrow-up fa-lg p-2"
-              style="color: #fff;"></span></a></p>
+          success.</a><a href="#nav" title="return to top nav"><span
+              class="fa-solid fa-arrow-up fa-lg p-3 align-bottom text-end" style="color: #fff;"></span></a></p>
       </div>
     </section>
     <section class="row">
@@ -92,7 +93,8 @@
             <h5 class="card-subtitle mb-2 text-muted">Tech Tools</h5>
             <p class="card-text">WordPress/PHP/JavaScript</p>
             <a href="https://pixated.agency/about/" class="card-link">pwd: G0t0j51l</a>
-          </div>
+          </div><a href="#nav" title="return to top nav" class="align-bottom text-end"><span
+              class="fa-solid fa-arrow-up fa-lg p-3" style="color: #000;"></span></a>
         </div>
       </div>
     </section>
@@ -108,7 +110,8 @@
             <h5 class="card-subtitle mb-2 text-muted">Tech Tools</h5>
             <p class="card-text">HTML/CSS, JavaScript (so far)</p>
             <a href="https://stephdavid.github.io/landing-page/" class="card-link">Open for business soon!</a>
-          </div>
+          </div><a href="#nav" title="return to top nav" class="align-bottom text-end"><span
+              class="fa-solid fa-arrow-up fa-lg p-3" style="color: #000;"></span></a>
         </div>
       </div>
       <div class="col-lg-4 mt-5 d-flex align-items-stretch" style="max-width: 25rem;">
@@ -119,7 +122,8 @@
             <h5 class="card-subtitle mb-2 text-muted">Tech Tools</h5>
             <p class="card-text">WordPress/Divi Page Builder</p>
             <a href="https://pixated.agency/about/" class="card-link">Check it out!</a>
-          </div>
+          </div><a href="#nav" title="return to top nav" class="align-bottom text-end"><span
+              class="fa-solid fa-arrow-up fa-lg p-3" style="color: #000;"></span></a>
         </div>
       </div>
     </section>
@@ -135,7 +139,8 @@
             <h5 class="card-subtitle mb-2 text-muted">Tech Tools</h5>
             <p class="card-text">WordPress, HTML/CSS, JavaScript, PHP. Accessibility audit</p>
             <a href="https://victimscommissioner.org.uk/" class="card-link">Have a look!</a>
-          </div>
+          </div><a href="#nav" title="return to top nav" class="align-bottom text-end"><span
+              class="fa-solid fa-arrow-up fa-lg p-3" style="color: #000;"></span></a>
         </div>
       </div>
       <div class="col-lg-4 mt-5 d-flex align-items-stretch" style="max-width: 25rem;">
@@ -148,7 +153,8 @@
             <p class="card-text">Lorem, ipsum dolor, sit amet, consectetur, adipisicing elit. Illo hic fugiat, quaerat
               voluptas</p>
             <a href="#" class="card-link">Coming Soon!</a>
-          </div>
+          </div><a href="#nav" title="return to top nav" class="align-bottom text-end"><span
+              class="fa-solid fa-arrow-up fa-lg p-3" style="color: #000;"></span></a>
         </div>
       </div>
     </section>
@@ -158,20 +164,17 @@
         <h3 id="contact-me" class="mt-3">Contact Me</h3>
       </div>
       <div class="col-8">
-        <ul class="list-unstyled list-inline mt-4">
-          <li class="list-inline-item">+44 (0) 0785 525 0456</li>
-          <li class="list-inline-item">
-            <a href="mailto:stephdaviduk@gmail.com"
-              class="link-offset-3 fs-5 m-3 p-2 text-light">stephdaviduk@gmail.com</a>
+        <ul class="nav">
+          <li class="nav-item mt-2">+44 (0) 0785 525 0456</li>
+          <li class="nav-item">
+            <a href="mailto:stephdaviduk@gmail.com" class="nav-link link-offset-3 text-light">stephdaviduk@gmail.com</a>
           </li>
-          <li class="list-inline-item">
+          <li class="nav-item">
             <a href="https://www.linkedin.com/in/stephanie-david-88b25b7"
-              class="link-offset-3 fs-5 m-2 p-2 text-light">LinkedIn</a>
+              class="nav-link link-offset-3 text-light">LinkedIn</a>
           </li>
-          <li class="list-inline-item">
-            <a href="https://github.com/stephdavid" class="link-offset-3 fs-5 m-2 p-2 text-light">GitHub</a>
-            <a href="#nav" title="return to navbar"><span class="fa-solid fa-arrow-up fa-lg p-2"
-                style="color: #fff;"></span></a>
+          <li class="nav-item">
+            <a href="https://github.com/stephdavid" class="nav-link link-offset-3 text-light">GitHub</a>
           </li>
         </ul>
       </div>
