@@ -22,7 +22,7 @@ https://stackoverflow.com/questions/6613166/how-to-duplicate-a-git-repository-wi
 
 * A dubious win is not requiring a separate css file but having everything in the html file - flies in the face the "Separation of Concerns" principle
 
-* It's too easy to add too many divs
+* It's too easy to add too many divsgit
 
 * but it validates as HTML5
 
