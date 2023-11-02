@@ -63,7 +63,44 @@
   <div class="p-5 text-center bg-image"
     style="background: url('images/bgd.png') no-repeat; background-size: cover; height: 100vh;">
     <div class="container py-4">
-      <h2 class="display-5 text-light fw-semibold">Web&nbsp;Developer</h2>
+      <h2 class="display-5 text-light fw-semibold mb-6">Web&nbsp;Developer</h2>
+      <button type="button" class="btn btn-dark btn-primary fs-3"
+        style="margin-top: 10rem; padding: 2rem 1rem 2rem 1rem; " data-bs-toggle="modal"
+        data-bs-target="#stephModal" data-bs-whatever="Hey Steph!">Get in touch!</button>
+
+      <!-- Modal -->
+      <div class="modal fade bg-dark" id="stephModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-transparent">
+            <div class="modal-header">
+              <h3 class="modal-title fs-5" id="exampleModalLabel">Hey Steph!</h3>
+              <button type="button" class="btn-close  btn-close-white" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                  <div class="mb-3" style="text-align: left;">
+                  <label for="contact-name" class="col-form-label">Your name</label>
+                  <input type="text" class="form-control" id="contact-name">
+                </div>
+                <div class="mb-3" style="text-align: left;">
+                  <label for="formControlInput" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="formControlInput" placeholder="">
+                </div>
+                <div class="mb-3" style="text-align: left;">
+                  <label for="message-text" class="col-form-label">Tell me about it!</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-light btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -163,7 +200,8 @@
           <div class="card-body d-flex flex-column">
             <h4 class="card-title">UK Victims Commissioner website</h4>
             <h5 class="card-subtitle mb-2 text-muted">Summary</h5>
-            <p class="card-text">Coded various pages of this site and other UK Ministry of Justice arms-length organisations. Conducted an accessibility audit with recommendations</p>
+            <p class="card-text">Coded various pages of this site and other UK Ministry of Justice arms-length
+              organisations. Conducted an accessibility audit with recommendations</p>
             <h5 class="card-subtitle mb-2 text-muted">Tech Tools</h5>
             <p class="card-text">WordPress, HTML/CSS, JavaScript, PHP</p>
             <h5 class="card-subtitle mb-2 text-muted">Role</h5>

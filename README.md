@@ -109,7 +109,7 @@ https://stackoverflow.com/questions/6613166/how-to-duplicate-a-git-repository-wi
 
       - All hyperlinks should have a hover effect. :ballot_box_with_check:
 
-      - All buttons should display a box shadow upon hover. **no buttons**
+      - All buttons should display a box shadow upon hover. :ballot_box_with_check:
 
 5. Your Bootstrap solution should minimize use of media queries. :ballot_box_with_check:
 
