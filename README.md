@@ -13,6 +13,8 @@ https://stackoverflow.com/questions/6613166/how-to-duplicate-a-git-repository-wi
 
 * As the title name was specifically requested, I created a second repository naming it **Bootstrap Portfolio**.
 
+* Here's a link to the webpage - https://stephdavid.github.io/Bootstrap-Portfolio/
+
 * I used my Challenge-2 Portfolio page as a template. Would it have been better starting the Profile page again from scratch, as there was a lot of refactoring? On second thought, I don't think it would have been easier as I'm so accustomed to the HTML/CSS way of doing things, and there would still be relearning and at least as much refactoring. For me, Bootstrap is a "foreign" language, and there's a lot of literal translation i.e. "Franglais". Linguistically, speaking in a foreign language always has the flavour/accent, sometimes structure, of the speaker's native language. I think this applies to coding too. My maiden coding "tongue" is plain old CSS. :-) 
 
 * I prepared a wireframe grid (based on Bootstrap's 12 col grid) for the overall page, and, later, one for the skills cards, in a MSExcel spreadsheet:
